@@ -2,7 +2,8 @@ name: hello
 
 # on tells when the workflows runs
 
-on: workflow_dispatch
+on: 
+ workflow_dispatch:
 # job tellswhat the workflow should do
 jobs:
  say-hello:
