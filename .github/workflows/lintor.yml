@@ -1,0 +1,15 @@
+name: lintor
+
+on: 
+ push: 
+  paths: "*.py"
+
+jobs:
+  code:
+   runs-on: ubuntu-latest
+   steps:
+     - name: checkout/clone the code
+       uses: actions/checkout@v7
+     - name: install the lintor
+       run: pip install ruff
+     
