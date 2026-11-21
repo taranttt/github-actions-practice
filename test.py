@@ -3,6 +3,6 @@ class Person:
     self.name = name
     self.__age = age  # Private property
 
-p1 = Person("Emil", 25)
+p1 = Person("Emil", 29)
 print(p1.name)
 print(p1.__age)  # This will cause an error
